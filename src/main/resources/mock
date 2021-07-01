@@ -1,0 +1,13 @@
+Mock objeler
+Mock obje: test ettiğimiz objenin bağımlı olduğu objeleri o objeler gibi davranabilen ancak gercekte o obje olmayan objelerdir.
+Sipariş Müşteri ilişkisini test ederken mock stok objesine ihtiyaç duyar.
+Mock stok objesine su malzeme için var dön şu malzeme için yok dön denebilir.
+mock objeleri olusturmamızı sağlayan kütüphanelerden biride mochitodur.
+
+
+Ne zaman mock obje kullanılır
+* Önceden belirleyemediğimiz değerler dönen objeler
+* Oluşurması zor hatalar.. network hatası
+* Yavaş çalışan objeler veritabanı bağlantısı
+* gercej obje yok sadece interfaci var
+*
